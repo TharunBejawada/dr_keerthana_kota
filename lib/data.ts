@@ -1,9 +1,10 @@
-export const PHONE_DISPLAY = "040 2403 3151";
-export const PHONE_TEL = "+914024033151";
+export const PHONE_DISPLAY = "70130 48272";
+export const PHONE_TEL = "+917013048272";
 export const MOBILE_DISPLAY = "+91 70130 48272";
 export const MOBILE_TEL = "+917013048272";
-export const MAPS_URL =
-  "https://www.google.com/maps/search/?api=1&query=Susheela+Hospital+SRK+Puram+Kothapet+Hyderabad";
+export const MAPS_URL = "https://maps.app.goo.gl/PHRMEpAe9kJTYbMz8";
+export const MAP_EMBED_URL =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1406.613149794684!2d78.54983941049176!3d17.36762730173792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9955034c054b%3A0x16194672d62b09f1!2sDr%20Keerthana%20Kota%20%7C!5e0!3m2!1sen!2sin!4v1793980676815!5m2!1sen!2sin";
 
 export const NAV = [
   { id: "home", label: "Home" },
@@ -17,10 +18,8 @@ export const NAV = [
 ];
 
 export const SOCIALS = [
-  { name: "Facebook", icon: "facebook", href: "https://www.facebook.com/" },
-  { name: "Instagram", icon: "instagram", href: "https://www.instagram.com/" },
-  { name: "YouTube", icon: "youtube", href: "https://www.youtube.com/" },
-  { name: "X", icon: "x", href: "https://x.com/" },
+  { name: "Facebook", icon: "facebook", href: "https://www.facebook.com/drkeerthanaurologist" },
+  { name: "Instagram", icon: "instagram", href: "https://www.instagram.com/drkeerthana_urologist/" },
   { name: "WhatsApp", icon: "whatsapp", href: `https://wa.me/${MOBILE_TEL.replace("+", "")}` },
 ];
 
@@ -129,7 +128,7 @@ export const FAQS = [
   },
   {
     q: "How can I book an appointment with Dr. Keerthana Kota?",
-    a: "Call 040 2403 3151 or +91 70130 48272, or use the appointment form on this page.",
+    a: "Call 70130 48272, or use the appointment form on this page.",
   },
 ];
 

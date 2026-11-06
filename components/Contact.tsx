@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Reveal from "./Reveal";
-import { MAPS_URL, MOBILE_DISPLAY, MOBILE_TEL } from "@/lib/data";
+import { MAP_EMBED_URL, MAPS_URL, MOBILE_DISPLAY, MOBILE_TEL } from "@/lib/data";
 
 const input = "w-full h-[38px] rounded-[6px] border border-[#8a8a8a] bg-white px-3 font-poppins text-[14px] text-ink outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/20";
 const label = "block font-poppins text-[12px] text-ink mb-[6px] ml-[10px]";
@@ -64,7 +64,14 @@ export default function Contact() {
                 </div>
               </div>
               <div className="mt-[10px] rounded-[16px] overflow-hidden">
-                <Image src="/images/map.png" alt="Map to Susheela Hospital" width={416} height={181} className="w-full h-auto" />
+                <iframe
+                  src={MAP_EMBED_URL}
+                  title="Map to Dr. Keerthana Kota, Susheela Hospital"
+                  className="w-full h-[181px] border-0 block"
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
               </div>
               <div className="grid grid-cols-2 gap-[28px] mt-[16px]">
                 <a href={MAPS_URL} target="_blank" rel="noreferrer" className="h-[48px] rounded-[7px] bg-[#dff2ff] flex items-center justify-center gap-3 font-poppins font-medium text-[14px] text-ink transition-all hover:-translate-y-0.5 hover:shadow-md">
